@@ -13,6 +13,11 @@ Enter the first number, choose an operation, enter the second number, and select
 
 If you select another operation before **=**, the calculator completes the current operation and continues with the new result.
 
+<figure class="app-shot" markdown>
+  ![Calculator showing 12 plus 8 equals 20](assets/screenshots/addition-result.png)
+  <figcaption>The expression line records the two values and operation; the result appears directly below it.</figcaption>
+</figure>
+
 ## Decimal numbers
 
 Select the decimal point once while entering a number. A second decimal point in the same number is ignored.
@@ -43,6 +48,11 @@ The **%** button divides the displayed number by 100.
     It converts a percentage to its decimal form. It does not automatically calculate “25% of another number.” To find 25% of 80, enter `25 % × 80 =`.
 
 ## Clear the calculator
+
+<figure class="app-shot" markdown>
+  ![Calculator displaying 20 after calculating 25 percent of 80](assets/screenshots/percentage-example.png)
+  <figcaption>Example: `25 % × 80` converts 25% to 0.25, multiplies it by 80, and displays 20.</figcaption>
+</figure>
 
 **Clear** removes the current number, stored operation, and expression. It restores the initial `0` display.
 

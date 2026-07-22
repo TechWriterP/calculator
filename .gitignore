@@ -18,6 +18,7 @@
 /.vinext/
 /out/
 /.venv-docs/
+/.edge-capture/
 
 # misc
 .DS_Store
