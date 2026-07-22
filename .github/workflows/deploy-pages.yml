@@ -1,4 +1,4 @@
-name: Deploy calculator to GitHub Pages
+name: Deploy calculator and docs to GitHub Pages
 
 on:
   push:
@@ -30,8 +30,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install documentation dependencies
+        run: pip install -r requirements-docs.txt
+
       - name: Build static calculator
         run: npx next build
+
+      - name: Build documentation
+        run: mkdocs build --strict --site-dir out/docs
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

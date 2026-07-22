@@ -17,6 +17,7 @@
 /.next/
 /.vinext/
 /out/
+/.venv-docs/
 
 # misc
 .DS_Store
