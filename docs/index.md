@@ -35,7 +35,7 @@ The Simple Everyday Calculator is a responsive web app for quick arithmetic. It 
 
     ---
 
-    Understand the calculation state, responsive interface, and deployment process.
+    Understand the calculation state, input flow, and responsive interface.
 
     [Developer guide](developer-guide.md)
 
