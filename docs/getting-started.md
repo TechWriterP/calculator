@@ -7,8 +7,8 @@ You do not need to install anything. The calculator runs in a modern web browser
 Visit [Simple Everyday Calculator](https://techwriterp.github.io/calculator/). The page has an introduction on the left and the calculator on the right. On a narrow screen, the calculator moves below the introduction.
 
 <figure class="app-shot" markdown>
-  ![Calculator home screen on a desktop](assets/screenshots/calculator-desktop.png)
-  <figcaption>Desktop view: the calculator sits beside a short introduction and keyboard hints.</figcaption>
+  ![Calculator keypad and display in its initial state](assets/screenshots/calculator-only.png)
+  <figcaption>The calculator opens with a zero display, utility buttons across the top, and the four operations on the right.</figcaption>
 </figure>
 
 ## Take a quick tour
