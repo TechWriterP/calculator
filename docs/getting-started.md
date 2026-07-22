@@ -36,4 +36,4 @@ Select **Clear** at any time to return the calculator to `0`. On a keyboard, pre
 
 - Read [Using the calculator](using-the-calculator.md) for every control.
 - Try practical tasks in [Learn by example](examples.md).
-- Visit [Troubleshooting](troubleshooting.md) if something behaves unexpectedly.
+- Read [Errors and limitations](errors-and-limitations.md) if a result behaves unexpectedly.

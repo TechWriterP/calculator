@@ -3,7 +3,7 @@ site_description: User and developer documentation for the Simple Everyday Calcu
 site_url: https://techwriterp.github.io/calculator/docs/
 repo_url: https://github.com/TechWriterP/calculator
 repo_name: TechWriterP/calculator
-edit_uri: edit/main/docs/
+edit_uri: ""
 
 theme:
   name: material
@@ -41,11 +41,6 @@ nav:
   - Learn by Example: examples.md
   - Errors and Limitations: errors-and-limitations.md
   - Developer Guide: developer-guide.md
-  - Deployment: deployment.md
-  - Troubleshooting: troubleshooting.md
-  - Project:
-      - Accessibility: accessibility.md
-      - Contributing: contributing.md
 
 markdown_extensions:
   - admonition
