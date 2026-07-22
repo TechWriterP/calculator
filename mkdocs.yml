@@ -11,7 +11,6 @@ theme:
   logo: assets/calculator.svg
   favicon: assets/calculator.svg
   features:
-    - navigation.instant
     - navigation.sections
     - navigation.top
     - navigation.footer
