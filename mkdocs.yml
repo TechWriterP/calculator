@@ -1,0 +1,77 @@
+site_name: Simple Calculator Docs
+site_description: User and developer documentation for the Simple Everyday Calculator
+site_url: https://techwriterp.github.io/calculator/docs/
+repo_url: https://github.com/TechWriterP/calculator
+repo_name: TechWriterP/calculator
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/calculator.svg
+  favicon: assets/calculator.svg
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: calculator-light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Using the Calculator:
+      - Calculator controls: using-the-calculator.md
+      - Keyboard controls: keyboard-controls.md
+  - Learn by Example: examples.md
+  - Errors and Limitations: errors-and-limitations.md
+  - Developer Guide: developer-guide.md
+  - Deployment: deployment.md
+  - Troubleshooting: troubleshooting.md
+  - Project:
+      - Accessibility: accessibility.md
+      - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.keys
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TechWriterP/calculator
+      name: Calculator source on GitHub
+  generator: false
+
+copyright: Built for people who want everyday maths to feel simple.
