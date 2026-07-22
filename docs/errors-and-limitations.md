@@ -6,6 +6,11 @@ Dividing any number by zero is undefined. Instead of displaying `Infinity` or `N
 
 > Cannot divide by zero
 
+<figure class="app-shot" markdown>
+  ![Calculator displaying Cannot divide by zero for 8 divided by 0](assets/screenshots/division-by-zero.png)
+  <figcaption>The calculator replaces an unclear technical value with a direct explanation.</figcaption>
+</figure>
+
 Select **Clear** or enter a new number to continue.
 
 ## Decimal precision

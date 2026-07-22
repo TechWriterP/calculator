@@ -6,6 +6,11 @@ The calculator is a Next.js client component written in TypeScript. Its interfac
 
 The documentation is a separate MkDocs Material site under `docs/`. GitHub Actions combines the calculator and documentation into one Pages artifact.
 
+<figure class="app-shot" markdown>
+  ![Desktop calculator showing a two-column responsive layout](assets/screenshots/calculator-desktop.png)
+  <figcaption>The wide layout places product guidance and the interactive calculator in balanced columns.</figcaption>
+</figure>
+
 ## Local development
 
 Install the JavaScript dependencies and start the calculator:
@@ -49,6 +54,11 @@ Keyboard events are translated to the same input values as button clicks, so bot
 ## Responsive design
 
 The desktop layout uses two columns: introductory content and calculator. Below 820 pixels it becomes a single column. Below 430 pixels, secondary text is hidden and controls are tightened to preserve comfortable touch targets.
+
+<figure class="app-shot" markdown>
+  ![Calculator content stacked for a mobile viewport](assets/screenshots/calculator-mobile.png)
+  <figcaption>At a narrow viewport, the same interface follows a vertical reading order.</figcaption>
+</figure>
 
 ## Build checks
 

@@ -2,6 +2,11 @@
 
 The calculator supports keyboard input when its browser tab is active.
 
+<figure class="app-shot" markdown>
+  ![Calculator desktop screen with Enter and Escape keyboard hints](assets/screenshots/calculator-desktop.png)
+  <figcaption>The hints below the introduction show the two most useful shortcuts: Enter calculates and Escape clears.</figcaption>
+</figure>
+
 | Key | Action |
 |---|---|
 | ++0++–++9++ | Enter a number |

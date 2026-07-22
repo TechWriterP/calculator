@@ -26,6 +26,11 @@ The discount is **150**. To find the final price:
 
 ## Add expenses
 
+<figure class="app-shot" markdown>
+  ![Calculator showing 20 after a percentage calculation](assets/screenshots/percentage-example.png)
+  <figcaption>A percentage example keeps the completed expression visible above its result.</figcaption>
+</figure>
+
 Add travel costs of 245, 80, and 125.
 
 ```text
@@ -35,6 +40,11 @@ Add travel costs of 245, 80, and 125.
 After entering `245 + 80`, select `+` again. The calculator carries the result forward before you enter `125`.
 
 ## Work with a negative value
+
+<figure class="app-shot" markdown>
+  ![Calculator showing a completed addition and its result](assets/screenshots/addition-result.png)
+  <figcaption>A completed addition uses the same expression-and-result layout as longer everyday calculations.</figcaption>
+</figure>
 
 A balance of 35 is reduced by a charge of 50.
 
